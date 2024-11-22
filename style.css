@@ -1,0 +1,227 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#Cabecera{
+    width: 100vw;
+    height: 10.5%;
+    background-color: midnightblue;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-right: 0cap;
+    border-left: 0cap;
+    position: fixed;
+    font-size: 30px;
+    margin-left: -0.4%;
+    margin-top: -0.4%;
+    color: white;
+}
+#cabecerac{
+    margin-left: 32vw;
+}
+#Cabecera a{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+#Cabecera a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: white;
+    transition: left .8s;
+    }
+#Cabecera ul li{
+    float: left;
+    list-style: none;
+    line-height: 40px;
+}
+#Cabecera a:hover::after{
+    left: 0;
+}
+#imgGua{
+    margin-left: 20vw;
+    margin-top: 20vh;
+    border-radius: 20px;
+    position: fixed;
+    transition: 0.5s;
+}
+#imgGua:hover{
+    transform: scale(1.1);
+}
+#tGua{
+    margin-left: 20.5vw;
+    margin-top: 43vh;
+    position: fixed;
+    font-weight: bold;
+}
+#pGua{
+    margin-left: 20.5vw;
+    margin-top: 45vh;
+    position: fixed;
+}
+#imgCar{
+    margin-left: 40vw;
+    margin-top: 20vh;
+    border-radius: 20px;
+    position: fixed;
+    transition: 0.5s;
+}
+#imgCar:hover{
+    transform: scale(1.1);
+}
+#tCar{
+    margin-left: 40.5vw;
+    margin-top: 43vh;
+    position: fixed;
+    font-weight: bold;
+}
+#pCar{
+    margin-left: 40.5vw;
+    margin-top: 45vh;
+    position: fixed;
+}
+#imgCla{
+    margin-left: 60vw;
+    margin-top: 20vh;
+    border-radius: 20px;
+    position: fixed;
+    transition: 0.5s;
+}
+#imgCla:hover{
+    transform: scale(1.1);
+}
+#tCla{
+    margin-left: 60.5vw;
+    margin-top: 43vh;
+    position: fixed;
+    font-weight: bold;
+}
+#pCla{
+    margin-left: 60.5vw;
+    margin-top: 45vh;
+    position: fixed;
+}
+#imgCuba{
+    margin-left: 20vw;
+    margin-top: 55vh;
+    border-radius: 20px;
+    position: fixed;
+    transition: 0.5s;
+}
+#imgCuba:hover{
+    transform: scale(1.1);
+}
+#tCuba{
+    margin-left: 20.5vw;
+    margin-top: 78vh;
+    position: fixed;
+    font-weight: bold;
+}
+#pCuba{
+    margin-left: 20.5vw;
+    margin-top: 80vh;
+    position: fixed;
+}
+#imgRD{
+    margin-left: 40vw;
+    margin-top: 55vh;
+    border-radius: 20px;
+    position: fixed;
+    transition: 0.5s;
+}
+#imgRD:hover{
+    transform: scale(1.1);
+}
+#tRD{
+    margin-left: 40.5vw;
+    margin-top: 78vh;
+    position: fixed;
+    font-weight: bold;
+}
+#pRD{
+    margin-left: 40.5vw;
+    margin-top: 80vh;
+    position: fixed;
+}
+#imgPa{
+    margin-left: 60vw;
+    margin-top: 55vh;
+    border-radius: 20px;
+    position: fixed;
+    transition: 0.5s;
+}
+#imgPa:hover{
+    transform: scale(1.1);
+}
+#tPanama{
+    margin-left: 60.5vw;
+    margin-top: 78vh;
+    position: fixed;
+    font-weight: bold;
+}
+#pPanama{
+    margin-left: 60.5vw;
+    margin-top: 80vh;
+    position: fixed;
+}
+table {
+    width: 50%;
+    height: 50%;
+    border: 1px solid #000;
+    margin-top: 10%;
+    position: fixed;
+    border-collapse: collapse;
+    margin-left: 25vw;
+    background-color: antiquewhite;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 3px solid black;
+    padding: 0.3em;
+    text-align: center;
+    padding-top: 2%;
+ }
+#fila0 th{
+    text-align: center;
+    background-color: midnightblue;
+    color: white;
+}
+#fila1 th{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#fila1{
+    background-color: whitesmoke;
+}
+#fila2{
+    background-color: darkturquoise;
+}
+#formulario{
+    width: 100px;
+}
+#form{
+    position: fixed;
+    margin-top: 17vh;
+    margin-left: 33vw;
+    color: white;
+    border-radius: 3%;
+}
+label{
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: larger;
+}
+fieldset{
+    border-color: midnightblue;
+    background-image: url(./Images/1_YO5yJgwx4kHUu_RlF8I-kQ.jpg);
+}
